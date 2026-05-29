@@ -40,30 +40,32 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of my survey is to understand why the company is experiencing high turnover across all its departments, why it appears to be more prevalent among low-level employees, and what the company can do to address this issue. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is employees at the company (across all departments and levels). 
+The sampling frame is employees in the company's list of employee phone numbers, limited to individuals who are currently employed and ex-employees who recently left. 
+The sampling and observational units is both an individual employee or ex-employee. 
+The sampling method is quota sampling. I would designate quotas for each level within each department. As the high turnover appears to be a greater problem among low-level employees, I will want to have a higher quota for low-level employees; and I would also want to have higher quotas for departments with the highest turnover (if that is indeed the case). The reason I do not want to do stratified sampling is because stratified sampling would require that I sample a proportional # of people across department and level; however the largest departments may not have the highest turnover, so sampling a large number of employees from a particularly large department will not necessarily give me better and more representative feedback than by disproportionally sampling employees among departments with the highest turnover.
+I will hire external interviewers to conduct the survey, as current and former employees may be afraid to speak their mind about their grievances with the company if the interviewer is a fellow employee. The reason I am doing this survey by phone is that it allows surveyees a degree of anonymity, which the interviewer will emphasize to them at the beginning of the call. Personal information will not be collected during the interview, and only information on their department and position within the company will be collected. Theoretically an online survey sent by email would allow for greater anonymity but I believe the conversational and human-to-human angle of a phone interview will give us more insightful responses on what employees truly think about the company. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. are you currently working at <company name>?
+2. what is your department and position? 
+3. (if here) are you thinking of leaving, and if so why? / (if left) why did you leave the company? 
+4. if yes, were there any specific or recurring incidents that contributed to you wanting to leave/leaving? 
+5. do you think your colleagues share these concerns? 
+6. in your opinion, what can the company do to improve your working conditions? 
+7. do you think your salary is commensurate for your position? if not, what salary would you expect? 
+8. how do you think this company compares to other comparable (tech) companies (in terms of salary and/or work conditions)? 
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +73,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: stratified sampling - each province was divided into strata by geographical area. Census Metropolitan Areas were generally considered their own strata (except Moncton, NB). In total there were 27 strata. Within each strata, simple random sampling without replacement was used to determine who to reach out to. "Rejective" sampling was also used, where individuals who did not engage in unpaid work had their interviews cut short after an initial round of questions, allowing a greater number of calls to reach volunteers (who are assumed to be somewhat rare in the population).
+2. Sample size: the target population size was 20,000; the actual number of respondents was 16,149 (excluding "rejected" respondents)
+3. Target population: all persons 15yo and older in Canada, excluding full-time residents of institutions and residents of Yukon, Northwest Territories, and Nunavut. 
+4. Sampling frame: consisted of 2 components: a list of (landline or cellular) telephone numbers that are in use, from various sources (telephone companies, census); and Address Register, which is a list of all dwellings in the 10 provinces. The Address Register was used to group phone numbers that belonged to a single address. Up to 1 individual from each eligible household could be selected for interview.
+5. Survey mode(s): either an electronic questionnaire or a telephone interview.
+6. Timeline: data was collected from September 4 to December 28, 2018. 
+7. Response rate: 41.9% 
+8. Weights: a combination of household weight (to adjust for the chance of more than one respondent from a given household being contacted), non-response adjustment (households who did not receive the call), person weight (multiplying by the # of ≥15yo ppl in the household), adjustment for rejective sampling and adjustment for external totals (age-sex, geographic location, income distribution).
+9. Data processing: 1) categorization: all questions, including open-ended questions allowing for write-in responses, were coded into categories where possible. 2) creation of combined or derived variables: new variables were created from survey results to facilitate data analysis. 
+10. Cleaning, imputation, etc: 1) editing: duplicate, non-response and out-of-scope records were dropped; missing or incorrect info was corrected either using other info in the questionnaire. 2) imputation: conducted when item or partial non-response occurs (a respondent misinterprets/misunderstands/cannot recall the answer to/refuses to answer a question). In most cases, the missing value was filled in using the value of another respondent deemed to have the most similar profile. Where this was not possible, mean imputation was conducted. 
+11. Sources of error: non-sampling errors, e.g. interviewers or respondents misunderstanding/misinterpreting questions, incorrect data entry, errors during data processing and tabulation 
+12. Limitations, known biases, etc: undercoverage (households without phone numbers, households without at least one ≥15yo individual excluded); overcoverage (if multiple individuals from the same household are surveyed and this was not identified during processing); bias (residents of 3 provinces excluded purposefully)
+13. Link to documentation and any additional sources used: these answers were based on entirely on the survey documentation at https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 ```
 
 ## Rubric
